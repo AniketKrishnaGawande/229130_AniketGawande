@@ -1,5 +1,5 @@
 FROM node:7
-WOKRDIR /IACSD
+WORKDIR /IACSD
 COPY package.json /IACSD
 RUN npm install
 COPY . /IACSD
